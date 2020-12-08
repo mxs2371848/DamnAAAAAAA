@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Mateen'
-  s.version          = '1.0.0'
+  s.version          = '1.1.1'
   s.summary          = 'DAMNMSAMDAMSDMSADMSADMASDMASMDASMDASMD'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'Mateen/Classes/**/*'
+  s.source_files = 'Mateen/Classes/**/*.h'
   
   # s.resource_bundles = {
   #   'Mateen' => ['Mateen/Assets/*.png']

@@ -13,8 +13,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    XD *aa = [[XD alloc] init];
-    [aa xd];
+    XD *AA = [[XD alloc] init];
+//    [AA xd];
+    
     // Override point for customization after application launch.
     return YES;
 }

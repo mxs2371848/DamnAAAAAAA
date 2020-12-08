@@ -6,19 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		A8312C1EB9C11112E052A667311A3CF8 /* Mateen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 88FB0CC393E11739003587102A107528 /* Build configuration list for PBXAggregateTarget "Mateen" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = Mateen;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0D7B0F4244CF4086CF8C6A65AA5F69EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0EC3FC8006D52DE102DBE169A9F827ED /* Mateen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF86BE10161754D6FB8490324C3EBA13 /* Mateen-dummy.m */; };
 		5002C324C2D0B986A735D8B6FF6D7038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		568ED59E4FC3ACB6DB4563A3CB5712A8 /* Mateen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CB9661AF2081EA78EC703DA4731C78 /* Mateen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57B9D83424227170AD13F46376AAD31A /* XD.h in Headers */ = {isa = PBXBuildFile; fileRef = 196CA4841646D4CFBA716C775EA18906 /* XD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E95C2FBFC158335A69A848FB8DB8120 /* Pods-Mateen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142BCA64020B7633AE0343C287EC05E6 /* Pods-Mateen_Example-dummy.m */; };
-		884B1DED7B9A668640AC936F9AF200F0 /* XD.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B54305AC28C5BDD5DFC2DE24F18163 /* XD.m */; };
-		89030DC15EE1D7FF5B877B47CE4F55D0 /* Pods-Mateen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CA205F7888FEFFE88FE34EFD3D3175 /* Pods-Mateen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E95C2FBFC158335A69A848FB8DB8120 /* Pods-Mateen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 652425D4CDB1C8E91C547A15E878A42D /* Pods-Mateen_Example-dummy.m */; };
+		89030DC15EE1D7FF5B877B47CE4F55D0 /* Pods-Mateen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2DAE6F181E174A8137A4B2207C3C68 /* Pods-Mateen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F031D5123C87AD4830EB30E64F09FC0C /* PBXContainerItemProxy */ = {
+		4C26366D81BBEDCF907685C89E7461E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -28,28 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		142BCA64020B7633AE0343C287EC05E6 /* Pods-Mateen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mateen_Example-dummy.m"; sourceTree = "<group>"; };
-		196CA4841646D4CFBA716C775EA18906 /* XD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XD.h; path = Mateen/Classes/XD.h; sourceTree = "<group>"; };
-		19CB9661AF2081EA78EC703DA4731C78 /* Mateen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mateen-umbrella.h"; sourceTree = "<group>"; };
-		2967506598E9144FBE22FE3D4ADB4A13 /* Pods-Mateen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F2DAE6F181E174A8137A4B2207C3C68 /* Pods-Mateen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mateen_Example-umbrella.h"; sourceTree = "<group>"; };
+		1031A1FB23EB2B215158B0DB1D542D01 /* Pods-Mateen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mateen_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		13A8E45F2EC49D281EBC2DAAE29DDC8A /* Pods-Mateen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mateen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2CB4A64845472FAADCE6088769A9E4DF /* Mateen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mateen.release.xcconfig; sourceTree = "<group>"; };
 		2DAD3ED8E19642F40845371E5FF3CA76 /* Pods_Mateen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Mateen_Example.framework; path = "Pods-Mateen_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		354FF5331D71AB8C82AFE03D9AC8C9C0 /* Pods-Mateen_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mateen_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3C5E3E6ABCAEC4A339F61A373FD1FE87 /* Mateen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mateen.release.xcconfig; sourceTree = "<group>"; };
-		5094314D0745F5F5423D43A827B9B2A6 /* Pods-Mateen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mateen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5F94AC68A61424B23D0A158703D7C698 /* Pods-Mateen_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Mateen_Example-frameworks.sh"; sourceTree = "<group>"; };
+		32390C95786DD6A611E6D3A4781F61EF /* XD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XD.h; path = Mateen/Classes/XD.h; sourceTree = "<group>"; };
+		652425D4CDB1C8E91C547A15E878A42D /* Pods-Mateen_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Mateen_Example-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		84ADA612D2B62A029B3A924C8C73396F /* Mateen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mateen-Info.plist"; sourceTree = "<group>"; };
+		91F491F34415D3646ABBA0212FF7A491 /* Pods-Mateen_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		99A87E720524AE4A7165336CC2097B12 /* Pods-Mateen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mateen_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE83195979F10F859227EA8B0C4D8A4F /* Mateen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mateen.modulemap; sourceTree = "<group>"; };
-		BB74DC9EC7E1C95CAACF5672E37EEC3D /* Mateen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mateen.framework; path = Mateen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6DAE0B59532FF096541AD2529FCCFD /* Pods-Mateen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Example-Info.plist"; sourceTree = "<group>"; };
-		D3CA205F7888FEFFE88FE34EFD3D3175 /* Pods-Mateen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mateen_Example-umbrella.h"; sourceTree = "<group>"; };
-		DF86BE10161754D6FB8490324C3EBA13 /* Mateen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mateen-dummy.m"; sourceTree = "<group>"; };
-		E2B54305AC28C5BDD5DFC2DE24F18163 /* XD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XD.m; path = Mateen/Classes/XD.m; sourceTree = "<group>"; };
-		E477DB82B69A90FF51C8A1BBBD3EA7F5 /* Pods-Mateen_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Mateen_Example.modulemap"; sourceTree = "<group>"; };
-		ED0EA8DC1307D6A1481D63F2426468F4 /* Mateen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mateen.debug.xcconfig; sourceTree = "<group>"; };
-		F85BD5133BDC98A515BBA1EF25C812D8 /* Mateen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mateen-prefix.pch"; sourceTree = "<group>"; };
-		FBC99D711E8843B68C27985ED6B134A8 /* Pods-Mateen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mateen_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A55A9DD6636360D7065B42DF418F9FD1 /* Pods-Mateen_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Example-Info.plist"; sourceTree = "<group>"; };
+		D70ABF319D7DF28018E15669949BF300 /* Pods-Mateen_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Mateen_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3E3933B85587DC99F0675416CF20C0C /* Mateen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mateen.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,34 +60,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93FBA9534E446BAB43BD40BE8EB7E1CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0D7B0F4244CF4086CF8C6A65AA5F69EE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E5D6BFF6B188F82E52F8F541D4B8E6 /* Mateen */ = {
+		1DC1CBFF89DC3D2EFF24CB76CED99DA4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				196CA4841646D4CFBA716C775EA18906 /* XD.h */,
-				E2B54305AC28C5BDD5DFC2DE24F18163 /* XD.m */,
-				8BC3B2A8A683BB00362CD773B4091DF5 /* Support Files */,
-			);
-			name = Mateen;
-			path = Mateen;
-			sourceTree = "<group>";
-		};
-		3F5AD8847081219988CE66A9412396E0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				00E5D6BFF6B188F82E52F8F541D4B8E6 /* Mateen */,
+				A9C94C63823F94968189B79472CC3EAF /* Mateen */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4A6537D62316C7B18751963626162C46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3E3933B85587DC99F0675416CF20C0C /* Mateen.debug.xcconfig */,
+				2CB4A64845472FAADCE6088769A9E4DF /* Mateen.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mateen";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -99,36 +89,46 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		8BC3B2A8A683BB00362CD773B4091DF5 /* Support Files */ = {
+		64307BEE055825E08F851672434D475D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE83195979F10F859227EA8B0C4D8A4F /* Mateen.modulemap */,
-				DF86BE10161754D6FB8490324C3EBA13 /* Mateen-dummy.m */,
-				84ADA612D2B62A029B3A924C8C73396F /* Mateen-Info.plist */,
-				F85BD5133BDC98A515BBA1EF25C812D8 /* Mateen-prefix.pch */,
-				19CB9661AF2081EA78EC703DA4731C78 /* Mateen-umbrella.h */,
-				ED0EA8DC1307D6A1481D63F2426468F4 /* Mateen.debug.xcconfig */,
-				3C5E3E6ABCAEC4A339F61A373FD1FE87 /* Mateen.release.xcconfig */,
+				8F258B9E0425F6F7115CBB02D9C8E15F /* Pods-Mateen_Example */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Mateen";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AE926B6763E426EBC3EAB57D30C37444 /* Products */ = {
+		8F258B9E0425F6F7115CBB02D9C8E15F /* Pods-Mateen_Example */ = {
 			isa = PBXGroup;
 			children = (
-				BB74DC9EC7E1C95CAACF5672E37EEC3D /* Mateen.framework */,
+				99A87E720524AE4A7165336CC2097B12 /* Pods-Mateen_Example.modulemap */,
+				D70ABF319D7DF28018E15669949BF300 /* Pods-Mateen_Example-acknowledgements.markdown */,
+				91F491F34415D3646ABBA0212FF7A491 /* Pods-Mateen_Example-acknowledgements.plist */,
+				652425D4CDB1C8E91C547A15E878A42D /* Pods-Mateen_Example-dummy.m */,
+				A55A9DD6636360D7065B42DF418F9FD1 /* Pods-Mateen_Example-Info.plist */,
+				0F2DAE6F181E174A8137A4B2207C3C68 /* Pods-Mateen_Example-umbrella.h */,
+				1031A1FB23EB2B215158B0DB1D542D01 /* Pods-Mateen_Example.debug.xcconfig */,
+				13A8E45F2EC49D281EBC2DAAE29DDC8A /* Pods-Mateen_Example.release.xcconfig */,
+			);
+			name = "Pods-Mateen_Example";
+			path = "Target Support Files/Pods-Mateen_Example";
+			sourceTree = "<group>";
+		};
+		A9C94C63823F94968189B79472CC3EAF /* Mateen */ = {
+			isa = PBXGroup;
+			children = (
+				32390C95786DD6A611E6D3A4781F61EF /* XD.h */,
+				4A6537D62316C7B18751963626162C46 /* Support Files */,
+			);
+			name = Mateen;
+			path = Mateen;
+			sourceTree = "<group>";
+		};
+		CAD4A9A16112CF9D56C3D7EF34C001F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				2DAD3ED8E19642F40845371E5FF3CA76 /* Pods_Mateen_Example.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		B1AF2EF303B36A22752C22D5F739DA5E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E03711C8F626B2017EB8B417F6F79FBF /* Pods-Mateen_Example */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -136,9 +136,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3F5AD8847081219988CE66A9412396E0 /* Pods */,
-				AE926B6763E426EBC3EAB57D30C37444 /* Products */,
-				B1AF2EF303B36A22752C22D5F739DA5E /* Targets Support Files */,
+				1DC1CBFF89DC3D2EFF24CB76CED99DA4 /* Pods */,
+				CAD4A9A16112CF9D56C3D7EF34C001F1 /* Products */,
+				64307BEE055825E08F851672434D475D /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,35 +150,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E03711C8F626B2017EB8B417F6F79FBF /* Pods-Mateen_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E477DB82B69A90FF51C8A1BBBD3EA7F5 /* Pods-Mateen_Example.modulemap */,
-				5094314D0745F5F5423D43A827B9B2A6 /* Pods-Mateen_Example-acknowledgements.markdown */,
-				2967506598E9144FBE22FE3D4ADB4A13 /* Pods-Mateen_Example-acknowledgements.plist */,
-				142BCA64020B7633AE0343C287EC05E6 /* Pods-Mateen_Example-dummy.m */,
-				5F94AC68A61424B23D0A158703D7C698 /* Pods-Mateen_Example-frameworks.sh */,
-				CE6DAE0B59532FF096541AD2529FCCFD /* Pods-Mateen_Example-Info.plist */,
-				D3CA205F7888FEFFE88FE34EFD3D3175 /* Pods-Mateen_Example-umbrella.h */,
-				354FF5331D71AB8C82AFE03D9AC8C9C0 /* Pods-Mateen_Example.debug.xcconfig */,
-				FBC99D711E8843B68C27985ED6B134A8 /* Pods-Mateen_Example.release.xcconfig */,
-			);
-			name = "Pods-Mateen_Example";
-			path = "Target Support Files/Pods-Mateen_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4AAAE6288A065C4BCE15DA1DE0A0E1A0 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				568ED59E4FC3ACB6DB4563A3CB5712A8 /* Mateen-umbrella.h in Headers */,
-				57B9D83424227170AD13F46376AAD31A /* XD.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50E863409F1FFD20FD897555A5F7FA7A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,29 +176,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D2750DE22FEC2DF6FF0D3219A7E7568 /* PBXTargetDependency */,
+				950C6692577CD8C50DC5B1E76B943ADE /* PBXTargetDependency */,
 			);
 			name = "Pods-Mateen_Example";
 			productName = "Pods-Mateen_Example";
 			productReference = 2DAD3ED8E19642F40845371E5FF3CA76 /* Pods_Mateen_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A8312C1EB9C11112E052A667311A3CF8 /* Mateen */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F1D2F0DEEA8E9304EED1B772375E680A /* Build configuration list for PBXNativeTarget "Mateen" */;
-			buildPhases = (
-				4AAAE6288A065C4BCE15DA1DE0A0E1A0 /* Headers */,
-				CB096BCF3303492CED3806BF8245C38C /* Sources */,
-				93FBA9534E446BAB43BD40BE8EB7E1CC /* Frameworks */,
-				69F109ACB01F503E6B1DE8E92AD357F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Mateen;
-			productName = Mateen;
-			productReference = BB74DC9EC7E1C95CAACF5672E37EEC3D /* Mateen.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -245,7 +201,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AE926B6763E426EBC3EAB57D30C37444 /* Products */;
+			productRefGroup = CAD4A9A16112CF9D56C3D7EF34C001F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -256,13 +212,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		69F109ACB01F503E6B1DE8E92AD357F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0C5B35A10858C8F0658A177CA276210 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -281,30 +230,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB096BCF3303492CED3806BF8245C38C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EC3FC8006D52DE102DBE169A9F827ED /* Mateen-dummy.m in Sources */,
-				884B1DED7B9A668640AC936F9AF200F0 /* XD.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D2750DE22FEC2DF6FF0D3219A7E7568 /* PBXTargetDependency */ = {
+		950C6692577CD8C50DC5B1E76B943ADE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Mateen;
 			target = A8312C1EB9C11112E052A667311A3CF8 /* Mateen */;
-			targetProxy = F031D5123C87AD4830EB30E64F09FC0C /* PBXContainerItemProxy */;
+			targetProxy = 4C26366D81BBEDCF907685C89E7461E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		142E6F24F4380AF9008A30D4C5161DD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 354FF5331D71AB8C82AFE03D9AC8C9C0 /* Pods-Mateen_Example.debug.xcconfig */;
+			baseConfigurationReference = 1031A1FB23EB2B215158B0DB1D542D01 /* Pods-Mateen_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -402,7 +342,7 @@
 		};
 		2BC4AAD9BC33088834276E688B724A5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBC99D711E8843B68C27985ED6B134A8 /* Pods-Mateen_Example.release.xcconfig */;
+			baseConfigurationReference = 13A8E45F2EC49D281EBC2DAAE29DDC8A /* Pods-Mateen_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -433,66 +373,18 @@
 			};
 			name = Release;
 		};
-		9129914100A702432AB532E8DBAB6858 /* Debug */ = {
+		B5A6F5B56C83020B2FB2CAD3C6580C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED0EA8DC1307D6A1481D63F2426468F4 /* Mateen.debug.xcconfig */;
+			baseConfigurationReference = E3E3933B85587DC99F0675416CF20C0C /* Mateen.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mateen/Mateen-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mateen/Mateen-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mateen/Mateen.modulemap";
-				PRODUCT_MODULE_NAME = Mateen;
-				PRODUCT_NAME = Mateen;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		C22D86870CF8A097D817366B9561E7B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C5E3E6ABCAEC4A339F61A373FD1FE87 /* Mateen.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mateen/Mateen-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mateen/Mateen-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Mateen/Mateen.modulemap";
-				PRODUCT_MODULE_NAME = Mateen;
-				PRODUCT_NAME = Mateen;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -556,6 +448,20 @@
 			};
 			name = Release;
 		};
+		D5EE21226EE06AE53A27FE1F22391403 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB4A64845472FAADCE6088769A9E4DF /* Mateen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -568,20 +474,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		88FB0CC393E11739003587102A107528 /* Build configuration list for PBXAggregateTarget "Mateen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A6F5B56C83020B2FB2CAD3C6580C52 /* Debug */,
+				D5EE21226EE06AE53A27FE1F22391403 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A4F3ACE38158C6743627B48E85C6D9F5 /* Build configuration list for PBXNativeTarget "Pods-Mateen_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				142E6F24F4380AF9008A30D4C5161DD0 /* Debug */,
 				2BC4AAD9BC33088834276E688B724A5E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F1D2F0DEEA8E9304EED1B772375E680A /* Build configuration list for PBXNativeTarget "Mateen" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9129914100A702432AB532E8DBAB6858 /* Debug */,
-				C22D86870CF8A097D817366B9561E7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

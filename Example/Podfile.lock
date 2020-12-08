@@ -1,5 +1,5 @@
 PODS:
-  - Mateen (1.1.0)
+  - Mateen (1.1.1)
 
 DEPENDENCIES:
   - Mateen
@@ -9,7 +9,7 @@ SPEC REPOS:
     - Mateen
 
 SPEC CHECKSUMS:
-  Mateen: 7f8d6eda61b7b6518959bc39156a07622c283b52
+  Mateen: 8dbbe736465067ba1dd8160afa71b214ee7c7251
 
 PODFILE CHECKSUM: 939a00b869c601ee1b3129a2985dfa3427cef105
 
