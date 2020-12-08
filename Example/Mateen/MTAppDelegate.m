@@ -7,11 +7,14 @@
 //
 
 #import "MTAppDelegate.h"
+#import <Mateen/XD.h>
 
 @implementation MTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    XD *aa = [[XD alloc] init];
+    [aa xd];
     // Override point for customization after application launch.
     return YES;
 }

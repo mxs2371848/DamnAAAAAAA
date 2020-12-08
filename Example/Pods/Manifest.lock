@@ -1,16 +1,16 @@
 PODS:
-  - Mateen (0.1.0)
+  - Mateen (1.1.0)
 
 DEPENDENCIES:
-  - Mateen (from `../`)
+  - Mateen
 
-EXTERNAL SOURCES:
-  Mateen:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Mateen
 
 SPEC CHECKSUMS:
-  Mateen: 5a5d24bed512438841f8727864bd793818b7e0e4
+  Mateen: 7f8d6eda61b7b6518959bc39156a07622c283b52
 
-PODFILE CHECKSUM: e7a5ca38106910c1cdd3c5ca6944914a0b9568d1
+PODFILE CHECKSUM: 939a00b869c601ee1b3129a2985dfa3427cef105
 
 COCOAPODS: 1.10.0

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XD.h"
 
 FOUNDATION_EXPORT double MateenVersionNumber;
 FOUNDATION_EXPORT const unsigned char MateenVersionString[];

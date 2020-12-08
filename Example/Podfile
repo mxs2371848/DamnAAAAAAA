@@ -1,13 +1,14 @@
 use_frameworks!
 
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '9.0'
 
 target 'Mateen_Example' do
-  pod 'Mateen', :path => '../'
 
-  target 'Mateen_Tests' do
-    inherit! :search_paths
+  
+pod 'Mateen'
 
-    
-  end
+
 end
