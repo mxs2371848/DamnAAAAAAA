@@ -1,0 +1,16 @@
+PODS:
+  - Mateen (0.1.0)
+
+DEPENDENCIES:
+  - Mateen (from `../`)
+
+EXTERNAL SOURCES:
+  Mateen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mateen: 5a5d24bed512438841f8727864bd793818b7e0e4
+
+PODFILE CHECKSUM: e7a5ca38106910c1cdd3c5ca6944914a0b9568d1
+
+COCOAPODS: 1.10.0

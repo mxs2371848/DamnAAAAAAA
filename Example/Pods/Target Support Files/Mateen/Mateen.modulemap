@@ -1,0 +1,6 @@
+framework module Mateen {
+  umbrella header "Mateen-umbrella.h"
+
+  export *
+  module * { export * }
+}
