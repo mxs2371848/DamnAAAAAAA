@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18F974B0257F52C900725460 /* XD.h in Headers */ = {isa = PBXBuildFile; fileRef = 18F974AE257F52C900725460 /* XD.h */; };
+		18F974B1257F52C900725460 /* XD.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F974AF257F52C900725460 /* XD.m */; };
 		2B6D1CF2E302A80B8496D32B2F291BA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		5002C324C2D0B986A735D8B6FF6D7038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7CF14A3F3BC227722DE6EFBEF05E13A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7E95C2FBFC158335A69A848FB8DB8120 /* Pods-Mateen_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 656ABBA8C4CB344F65E313C49B5DE5A2 /* Pods-Mateen_Example-dummy.m */; };
 		89030DC15EE1D7FF5B877B47CE4F55D0 /* Pods-Mateen_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB760632FC799994AD2A3B256F75BED /* Pods-Mateen_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F058ABE58215B78AD8D1CE8880B6D6A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = DABDEF33E549C6E98B9C5B4712B0FCDA /* ReplaceMe.m */; };
 		C82C8DBC989FBB13E3E7C610CEFD910D /* Pods-Mateen_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 233E293B020ACDCD5A247AEFD3796E7A /* Pods-Mateen_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D27F659C946A301860DDFB5773F15D8E /* Pods-Mateen_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFDFB39BC4B47C6590848AF388907E6 /* Pods-Mateen_Tests-dummy.m */; };
 		D2BE1C51CDCF9930CFC837BD58941030 /* Mateen-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9215EABE76DF34F15A83BF37C77217A9 /* Mateen-dummy.m */; };
@@ -40,6 +41,8 @@
 		0104E886F989FCCC3FC868A491AFF035 /* Mateen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mateen.release.xcconfig; sourceTree = "<group>"; };
 		03AA66BF4774FE36C5BA918F1DA5461A /* Pods_Mateen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mateen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		07DB6FB8F6DB1FA781F7FDF7D1EC2000 /* Pods-Mateen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		18F974AE257F52C900725460 /* XD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = XD.h; path = Mateen/Classes/XD.h; sourceTree = "<group>"; };
+		18F974AF257F52C900725460 /* XD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = XD.m; path = Mateen/Classes/XD.m; sourceTree = "<group>"; };
 		20598FF271B090F40FADDD7508829BA5 /* Mateen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mateen-prefix.pch"; sourceTree = "<group>"; };
 		233E293B020ACDCD5A247AEFD3796E7A /* Pods-Mateen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mateen_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2DAD3ED8E19642F40845371E5FF3CA76 /* Pods_Mateen_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mateen_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +69,6 @@
 		BB74DC9EC7E1C95CAACF5672E37EEC3D /* Mateen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mateen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4CF216CC40EC50F89A6D45991D5C198 /* Mateen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mateen-Info.plist"; sourceTree = "<group>"; };
 		D27780DE6F0B35383505E1F65B8C138B /* Pods-Mateen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Mateen_Tests-Info.plist"; sourceTree = "<group>"; };
-		DABDEF33E549C6E98B9C5B4712B0FCDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Mateen/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		EAB760632FC799994AD2A3B256F75BED /* Pods-Mateen_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Mateen_Example-umbrella.h"; sourceTree = "<group>"; };
 		EC0B938B1E138AC7599BE272E6330CC5 /* Pods-Mateen_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Mateen_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F93EB09CFB98FB1A56AD4CA7BEAF4AA7 /* Mateen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Mateen.podspec; sourceTree = "<group>"; tabWidth = 2; };
@@ -188,9 +190,10 @@
 		8D84EF24D586F5D2BDE7BAB40B22A589 /* Mateen */ = {
 			isa = PBXGroup;
 			children = (
-				DABDEF33E549C6E98B9C5B4712B0FCDA /* ReplaceMe.m */,
 				7689205DEC4FE610648E7A34229345D7 /* Pod */,
 				0ADA3C9E62D237763CD62498E4C79B58 /* Support Files */,
+				18F974AE257F52C900725460 /* XD.h */,
+				18F974AF257F52C900725460 /* XD.m */,
 			);
 			name = Mateen;
 			path = ../..;
@@ -246,6 +249,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F974B0257F52C900725460 /* XD.h in Headers */,
 				D3BCC6B90CEDB23F7F4A8FD7BE84140A /* Mateen-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,7 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BE1C51CDCF9930CFC837BD58941030 /* Mateen-dummy.m in Sources */,
-				9F058ABE58215B78AD8D1CE8880B6D6A /* ReplaceMe.m in Sources */,
+				18F974B1257F52C900725460 /* XD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
